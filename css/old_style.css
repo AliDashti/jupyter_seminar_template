@@ -1,0 +1,101 @@
+.reveal {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  color: #333;
+}
+
+.reveal .intro_section .trBorder  div{ 
+    height: 70%; 
+    width: 70%; 
+    margin: 5px; 
+    background-color: rgba(125,100,225,1.0);
+    opacity: 0.95;
+    font-size: 20px; 
+    font-weight: 900;
+    } 
+
+.reveal .intro_headings h1{    
+  font-size: 50.0px;  
+}
+
+.reveal .intro_headings h2 {
+  font-size: 35.5px; }
+
+.reveal .intro_headings h3 {
+  font-size: 30.0px; }
+
+.reveal .intro_headings h4 {
+  font-size: 25.0px; }
+
+.reveal .intro_headings h5 {
+  font-size: 20.0px; }
+
+.reveal .intro_headings h6 {
+  font-size: 15.0px; }
+
+.reveal .intro_credentials{
+  font-size:20.0px;
+  margin: 0px 0px;
+}
+
+
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: #F27C3A; }
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: #F27C3A; }
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #F27C3A; }
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: #F27C3A; }
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #0000f1; }
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #0000f1; }
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #0000f1; }
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #0000f1; }
+
+
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2); }
+
+.reveal .progress span {
+  background: #e83737;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * SLIDE NUMBER
+ *********************************************/
+.reveal .slide-number {
+  font-family: font-family: "PT Sans", Helvetica, Arial, sans-serif!important;
+  font-size: 15px;
+  font-weight: bold;
+  color: #0093C9;
+}
+
+

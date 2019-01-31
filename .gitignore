@@ -1,0 +1,4 @@
+*.html
+!presentation_cheatsheet.nbconvert.slides.html
+*.pyc
+*.csv
